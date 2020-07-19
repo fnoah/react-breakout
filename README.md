@@ -25,21 +25,16 @@ yarn add react-breakout
 
 ## Usage
 
-How to use
-
 ```jsx
-import React, { useState } from "react";
-import { useDebounce } from "react-relaxed";
+import React from "react";
+import { useBreakpoint } from "react-breakout";
 
 const App = () => {
-  const [value, setValue] = useState("initial value");
-  const [debouncedValue] = useDebounce(value, 500);
+  const isDesktop = useBreakpoint("md");
 
   return (
     <div>
-      <input value={value} onChange={(event) => setValue(event.target.value)} />
-      <p>{value}</p>
-      <p>{debouncedValue}</p>
+      <p>{isDesktop ? "YES" : "NO"}</p>
     </div>
   );
 };

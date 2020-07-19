@@ -1,1 +1,1 @@
-export { useBreakpoint } from "./useBreakpoint.ts";
+export { useBreakpoint } from "./useBreakpoint";
