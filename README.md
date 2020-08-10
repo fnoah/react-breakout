@@ -1,13 +1,17 @@
-<div align="center">
-<h1>React Breakout</h1>
+<h2 align="center">
+  React Breakout
+</h2>
 
-<p>Lightweight hook for responsive breakpoints in your React components</p>
-</div>
+<p align="center">
+  Lightweight hook for responsive breakpoints in your React components
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-breakout"><img src="https://img.shields.io/npm/v/react-breakout.svg?style=flat-square"></a>
+  <a href="https://github.com/fnoah/react-breakout/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/react-breakout.svg?style=flat-square"></a>
+</p>
 
 ---
-
-[![npm](https://img.shields.io/npm/v/react-breakout.svg?style=flat-square)](https://www.npmjs.com/package/react-breakout)
-[![MIT License](https://img.shields.io/npm/l/react-breakout.svg?style=flat-square)](https://github.com/fnoah/react-breakout/blob/master/LICENSE)
 
 ## Installation
 
