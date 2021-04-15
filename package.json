@@ -1,6 +1,6 @@
 {
   "name": "react-breakout",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lightweight hook for responsive breakpoints in React components",
   "author": "fnoah",
   "license": "MIT",
@@ -25,7 +25,6 @@
     "responsive",
     "breakpoint"
   ],
-  "dependencies": {},
   "peerDependencies": {
     "react": "^16.9.0"
   },
